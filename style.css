@@ -2,13 +2,18 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+        margin-left: 1rem;
+    margin-right: 1rem;
 }
 .container *
 {
         
-    margin: auto;
+   margin: auto;
         max-width: 50rem;
+
+}
+img{
+  
 }
 .main
 {
@@ -55,7 +60,7 @@ h1
     padding-left: 0.5rem;
     
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 600px){
     .main{ 
         max-width: none;
         border: none;
@@ -74,7 +79,10 @@ h1
     {
         grid-template-columns: 1fr;
     }
-
+    h1
+    {
+        text-align: center;
+    }
 
 
 }

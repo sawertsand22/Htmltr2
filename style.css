@@ -13,10 +13,16 @@
 .main
 {
     max-width: 600px;
-    
+    background-color: white;
     margin: auto;
-    border: 10px;
+    border: 1px solid;
+    border-color: black;    
+    box-shadow: 10px 5px 5px rgb(32, 32, 32);
 
+}
+body
+{
+    background-color: rgb(37, 90, 72);
 }
 h2
 {
@@ -40,6 +46,10 @@ button
     color: white;
 
 }
+h1
+{
+    padding-left: 1rem;
+}
 .btn
 { padding-top: 0.5rem;
     padding-left: 0.5rem;
@@ -48,6 +58,12 @@ button
 @media screen and (max-width: 760px){
     .main{ 
         max-width: none;
+        border: none;
+        box-shadow: none;
+    }
+    body
+    {
+        background-color: white;
     }
 
 
